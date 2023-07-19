@@ -1,3 +1,52 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
   background-color: green;
+}
+#topNumber {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  font-size: 45px;
+  padding-left: 10px;
+}
+#topSuit {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  font-size: 35px;
+  padding-left: 10px;
+}
+#centerNumber {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin: -90px 0 0 -50px;
+  font-size: 80px;
+}
+#bottomSuit {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  font-size: 35px;
+  padding-left: 10px;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+#bottomNumber {
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+  font-size: 45px;
+  padding-left: 10px;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
